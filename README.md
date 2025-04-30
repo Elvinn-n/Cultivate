@@ -1,16 +1,52 @@
-# cul_app
+# 🌱 Cultivate
 
-A new Flutter project.
+Cultivate is a basic Flutter app backed by Firebase, designed to connect sellers and buyers. Sellers can list products, and buyers can browse and purchase them—all within a streamlined mobile experience.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 User Authentication (Firebase Auth)
+- 🛍️ Sellers can:
+  - Add new products
+  - Provide product details including price and description
+- 🛒 Buyers can:
+  - Browse available products
+  - View product details
+  - Place orders
+- 💬 WhatsApp integration for direct buyer-seller communication
+- 🔄 Real-time updates using Firebase Firestore
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- **Flutter** (Frontend)
+- **Firebase** (Backend):
+
+---
+
+## 📦 Firebase Plan
+
+This project uses the **Firebase Spark Plan** (free tier), suitable for development and basic usage.
+
+Limitations to be aware of:
+- Limited reads/writes/storage per day
+- No Cloud Functions (backend logic)
+
+---
+
+## 🧪 Getting Started
+
+### Prerequisites
+
+- Flutter SDK
+- Firebase project (already set up)
+- Android Studio / VS Code
+
+### Setup
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Elvinn-n/Cultivate.git
+   cd Cultivate
