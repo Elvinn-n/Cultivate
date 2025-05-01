@@ -53,11 +53,11 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: '', ///insert your apiKey
-    appId: '1:567624903515:android:3f56c61ec7a4eed74dc87e',
-    messagingSenderId: '567624903515',
-    projectId: 'culapp-16d5a',
-    storageBucket: 'culapp-16d5a.firebasestorage.app',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
   );
 
 }
